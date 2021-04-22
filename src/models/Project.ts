@@ -1,4 +1,4 @@
-import { ProjectStatus } from "./ProjectStatus.js";
+import { ProjectStatus } from "./ProjectStatus";
 
 
 export class Project {

@@ -1,6 +1,6 @@
-import { State } from "./State.js";
-import { Project } from "../models/Project.js";
-import { ProjectStatus } from "../models/ProjectStatus.js";
+import { State } from "./State";
+import { Project } from "../models/Project";
+import { ProjectStatus } from "../models/ProjectStatus";
 
 export class ProjectState extends State<Project> {
     private projects: Project[] = [];

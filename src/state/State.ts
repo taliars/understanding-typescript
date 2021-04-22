@@ -1,4 +1,4 @@
-import { Listener } from "./Listener.js";
+import { Listener } from "./Listener";
 
 export class State<T> {
     protected listeners: Listener<T>[] = [];
